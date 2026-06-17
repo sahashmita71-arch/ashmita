@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ashmita Shah's professional developer portfolio site. Enrolled in BSc Computer Science & Engineering at Biratnagar, Nepal. Module CET138 Full Stack Development.">
+  <meta name="author" content="Ashmita  Shah">
+  <title>Ashmita Shah | ePortfolio · CET138 Full Stack Development</title>
+  
+  <!-- Styling Sheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🧭 Sticky Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand">Ashmita<span>Shah</span></a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#fullstack" class="nav-link">Full Stack</a></li>
+          <li><a href="#html" class="nav-link">HTML</a></li>
+          <li><a href="#css" class="nav-link">CSS</a></li>
+          <li><a href="#bootstrap" class="nav-link">Bootstrap</a></li>
+          <li><a href="#javascript" class="nav-link">JavaScript</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 🏠 Hero Section (#home) -->
+  <section id="home" class="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-content">
+      <div class="avatar-container">
+        <!-- Falls back to gradient behind if ./me.jpg does not load, though we pre-generated me.jpg -->
+        <img src="me.jpg" alt="Ashmita Shah Avatar" class="avatar" onerror="this.style.display='none'">
+      </div>
+      <h1 class="hero-name">Ashmita Shah</h1>
+      <p class="hero-role"> BSc.CSE Student</p>
+      
+      <span class="module-badge">CET138 · Full Stack Development</span>
+      
+      <div class="meta-row">
+        <span class="meta-item">📍 Biratnagar, Nepal</span>
+        <span class="meta-item">📧 <a href="mailto:sahashmita71@gmail.com">sahashmita71@gmail.com</a></span>
+        <span class="meta-item">🎓 BSc CSE · Level 4</span>
+      </div>
+
+      <div class="tech-pills">
+        <span class="tech-pill">HTML5</span>
+        <span class="tech-pill">CSS3</span>
+        <span class="tech-pill">Bootstrap 5</span>
+        <span class="tech-pill">JavaScript</span>
+        <span class="tech-pill">DOM API</span>
+        <span class="tech-pill">Responsive Design</span>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- 👩💻 About Me Section (#about) -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="about-card">
+            <img src="me.jpg" alt="Ashmita Shah Portrait">
+          </div>
+          <span class="year-badge">BSc CSE · Level 4 Student</span>
+        </div>
+        
+        <div class="about-right">
+          <span class="eyebrow">GET TO KNOW ME</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="about-bio">
+            Hello! I'm Ashmita Shah, a Computer Science and Engineering student with a strong passion for web development and software engineering. I specialize in creating modern, responsive, and user-centered digital experiences that combine elegant design with efficient functionality. Through continuous learning and hands-on projects, I strive to enhance my technical skills and stay updated with the latest industry trends. My ambition is to develop innovative solutions that solve real-world problems and make a positive impact through technology.
+
+          </p>
+
+          <div class="stats-container">
+            <div class="stat-box">
+              <div class="stat-number">1</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">2</div>
+              <div class="stat-label">Modules</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">1 Years</div>
+              <div class="stat-label">Coding</div>
+            </div>
+          </div>
+
+          <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-top: 1rem;">Core Competencies</h3>
+          
+          <div class="skills-container">
+            <div class="skill-wrapper">
+              <div class="skill-info">
+                <span>HTML / CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-wrapper">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>78%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="78%"></div>
+              </div>
+            </div>
+
+            <div class="skill-wrapper">
+              <div class="skill-info">
+                <span>Bootstrap</span>
+                <span>82%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="82%"></div>
+              </div>
+            </div>
+
+            <div class="skill-wrapper">
+              <div class="skill-info">
+                <span>Python</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="70%"></div>
+              </div>
+            </div>
+
+            <div class="skill-wrapper">
+              <div class="skill-info">
+                <span>Problem Solving</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-percent="85%"></div>
+              </div>
+            </div>
+          </div>
+
+          <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-top: 1rem;">Interests & Tech Focus</h3>
+          <div class="interest-tags">
+            <span class="interest-tag">Web Development</span>
+            <span class="interest-tag">Machine Learning</span>
+            <span class="interest-tag">UI/UX Design</span>
+            <span class="interest-tag">Data Science</span>
+            <span class="interest-tag">Open Source</span>
+            <span class="interest-tag">Nepal Tech</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Module Overview Section (#fullstack) -->
+  <section id="fullstack" class="section">
+    <div class="container">
+      <span class="eyebrow">Module Overview</span>
+      <h2 class="section-title">What is Full Stack Development?</h2>
+      <p class="section-desc">
+        Full stack development connects the frontend interface, backend application logic, and database storage layer into one complete web system. Each layer has a clear responsibility, but together they deliver interactive, data-driven user experiences.
+      </p>
+
+      <div class="architecture-flow" aria-label="Full stack architecture flow">
+        <div class="architecture-box">
+          <span class="architecture-icon">🖥️</span>
+          <h3>Frontend</h3>
+          <p>HTML · CSS · JS</p>
+        </div>
+        <div class="architecture-arrow" aria-hidden="true">
+          <span>HTTP</span>
+          <strong>→</strong>
+        </div>
+        <div class="architecture-box">
+          <span class="architecture-icon">⚙️</span>
+          <h3>Backend</h3>
+          <p>Node.js · Python</p>
+        </div>
+        <div class="architecture-arrow" aria-hidden="true">
+          <span>SQL</span>
+          <strong>→</strong>
+        </div>
+        <div class="architecture-box">
+          <span class="architecture-icon">🗄️</span>
+          <h3>Database</h3>
+          <p>MySQL · MongoDB</p>
+        </div>
+      </div>
+
+      <div class="concept-grid">
+        <div class="concept-card">
+          <span class="concept-icon">🎨</span>
+          <h3 class="concept-title">Frontend</h3>
+          <p class="concept-desc">UI built with HTML, CSS, and JavaScript that talks to the backend through REST or GraphQL.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🔧</span>
+          <h3 class="concept-title">Backend</h3>
+          <p class="concept-desc">Server logic, authentication, file handling, and business workflows in Node.js, Python, or Java.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🗄️</span>
+          <h3 class="concept-title">Database</h3>
+          <p class="concept-desc">Persistent storage using relational systems like MySQL/PostgreSQL or NoSQL systems like MongoDB.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🔗</span>
+          <h3 class="concept-title">API Layer</h3>
+          <p class="concept-desc">REST APIs using GET, POST, PUT, and DELETE methods that return structured JSON responses.</p>
+        </div>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <span class="benefit-icon">✅</span>
+          <div>
+            <h3>End-to-End Ownership</h3>
+            <p>Build client and server features independently from interface to deployment.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">✅</span>
+          <div>
+            <h3>Faster Debugging</h3>
+            <p>Trace bugs with full context across UI, API, and database behavior.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">✅</span>
+          <div>
+            <h3>High Employability</h3>
+            <p>Full stack development remains one of the top 10 most in-demand tech job paths globally.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">✅</span>
+          <div>
+            <h3>Versatile Skill Set</h3>
+            <p>Switch confidently between UI screens, API routes, and database work.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- 📚 HTML Section (#html) -->
+  <section id="html" class="section">
+    <div class="container">
+      <span class="eyebrow">Topic 1</span>
+      <h2 class="section-title">HTML Section</h2>
+      <p class="section-desc">
+        HTML5 provides the structural framework of the web. By utilizing semantic components and standards, we ensure accessibility, search engine indexing efficiency, and structured layouts.
+      </p>
+
+      <!-- Concept Cards -->
+      <div class="concept-grid">
+        <div class="concept-card">
+          <span class="concept-icon">🏗️</span>
+          <h3 class="concept-title">Semantic Structure</h3>
+          <p class="concept-desc">Using &lt;header&gt;, &lt;main&gt;, &lt;section&gt;, and &lt;footer&gt; elements for native accessibility and SEO structure.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">📝</span>
+          <h3 class="concept-title">Forms & Inputs</h3>
+          <p class="concept-desc">Structuring accessible user data inputs with validation, appropriate types, placeholders, and action forms.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">📊</span>
+          <h3 class="concept-title">Tables & Lists</h3>
+          <p class="concept-desc">Tabulating complex data sets neatly with &lt;table&gt; headers and structuring items inside list elements.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🔗</span>
+          <h3 class="concept-title">Media & Links</h3>
+          <p class="concept-desc">Linking resources, structuring navigation, and embedding media assets like pictures, audios, and videos.</p>
+        </div>
+      </div>
+
+      <!-- Split-Pane Demo 1: Contact Form -->
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-bottom: 1rem;">Demo A: Interactive HTML Form</h3>
+      <div class="split-pane">
+        <div class="code-editor">
+          <div class="editor-header">
+            <div class="window-dots">
+              <div class="dot dot-red"></div>
+              <div class="dot dot-yellow"></div>
+              <div class="dot dot-green"></div>
+            </div>
+            <div class="tab-title">contact-form.html</div>
+          </div>
+          <div class="editor-body">
+            <span class="code-line"><span class="tag">&lt;form</span> <span class="attr">onsubmit</span>=<span class="val">"submitHTMLForm(event)"</span><span class="tag">&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;div</span> <span class="attr">class</span>=<span class="val">"form-group"</span><span class="tag">&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;label&gt;</span>Name:<span class="tag">&lt;/label&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;input</span> <span class="attr">type</span>=<span class="val">"text"</span> <span class="attr">id</span>=<span class="val">"html-name"</span> <span class="attr">required</span><span class="tag">/&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;/div&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;div</span> <span class="attr">class</span>=<span class="val">"form-group"</span><span class="tag">&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;label&gt;</span>Email:<span class="tag">&lt;/label&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;input</span> <span class="attr">type</span>=<span class="val">"email"</span> <span class="attr">id</span>=<span class="val">"html-email"</span> <span class="attr">required</span><span class="tag">/&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;/div&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;button</span> <span class="attr">type</span>=<span class="val">"submit"</span><span class="tag">&gt;</span>Submit<span class="tag">&lt;/button&gt;</span></span>
+            <span class="code-line"><span class="tag">&lt;/form&gt;</span></span>
+          </div>
+        </div>
+        <div class="live-output">
+          <span class="output-label">Live Output</span>
+          <form class="demo-form" onsubmit="return submitHTMLForm(event)">
+            <div class="form-group">
+              <label for="html-name">Name</label>
+              <input type="text" id="html-name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="html-email">Email</label>
+              <input type="email" id="html-email" class="form-control" placeholder="name@domain.com" required>
+            </div>
+            <div class="form-group">
+              <label for="html-message">Message</label>
+              <textarea id="html-message" class="form-control" rows="2" placeholder="Write a message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">Submit Demo Form</button>
+            <div id="html-alert" class="demo-alert demo-alert-success"></div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Split-Pane Demo 2: Student Grades Table -->
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-bottom: 1rem;">Demo B: HTML Tables</h3>
+      <div class="split-pane">
+                <div class="code-editor">
+          <div class="editor-header">
+            <div class="window-dots">
+              <div class="dot dot-red"></div>
+              <div class="dot dot-yellow"></div>
+              <div class="dot dot-green"></div>
+            </div>
+            <div class="tab-title">grades-table.html</div>
+          </div>
+          <div class="editor-body">
+            <span class="code-line"><span class="tag">&lt;table</span> <span class="attr">class</span>=<span class="val">"demo-table"</span><span class="tag">&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;thead&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;tr&gt;</span></span>
+            <span class="code-line">      <span class="tag">&lt;th&gt;</span>Student<span class="tag">&lt;/th&gt;</span></span>
+            <span class="code-line">      <span class="tag">&lt;th&gt;</span>Module<span class="tag">&lt;/th&gt;</span></span>
+            <span class="code-line">      <span class="tag">&lt;th&gt;</span>Grade<span class="tag">&lt;/th&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;/tr&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;/thead&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;tbody&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;tr&gt;</span></span>
+            <span class="code-line">      <span class="tag">&lt;td&gt;</span>Ashmita Shah<span class="tag">&lt;/td&gt;</span></span>
+            <span class="code-line">      <span class="tag">&lt;td&gt;</span>CET138<span class="tag">&lt;/td&gt;</span></span>
+            <span class="code-line">      <span class="tag">&lt;td&gt;&lt;span</span> <span class="attr">class</span>=<span class="val">"grade-a"</span><span class="tag">&gt;</span>A<span class="tag">&lt;/span&gt;&lt;/td&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;/tr&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;/tbody&gt;</span></span>
+            <span class="code-line"><span class="tag">&lt;/table&gt;</span></span>
+          </div>
+        </div>
+        <div class="live-output">
+          <span class="output-label">Live Output</span>
+          <table class="demo-table">
+            <thead>
+              <tr>
+                <th>Student</th>
+                <th>Module Name</th>
+                <th>Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ashmita Shah</td>
+                <td>CET138 Full Stack Dev</td>
+                <td><span class="grade-badge grade-a">A</span></td>
+              </tr>
+              <tr>
+                <td>Ashmita Shah</td>
+                <td>CET140 Software Eng</td>
+                <td><span class="grade-badge grade-aplus">A+</span></td>
+              </tr>
+              <tr>
+                <td>Ashmita Shah</td>
+                <td>CET101 Web Design Intro</td>
+                <td><span class="grade-badge grade-bplus">B+</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- 📚 CSS Section (#css) -->
+  <section id="css" class="section">
+    <div class="container">
+      <span class="eyebrow">Topic 2</span>
+      <h2 class="section-title">CSS Section</h2>
+      <p class="section-desc">
+        Cascading Style Sheets control web layout and styling. Standard concepts include the block box system model, rule specific weight calculations, flex layouts, and animations.
+      </p>
+
+      <!-- Concept Cards -->
+      <div class="concept-grid">
+        <div class="concept-card">
+          <span class="concept-icon">📦</span>
+          <h3 class="concept-title">Box Model</h3>
+          <p class="concept-desc">Sizing elements based on Content core area, internal Padding, Border lines, and external Margins.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">⚖️</span>
+          <h3 class="concept-title">Specificity</h3>
+          <p class="concept-desc">Rules hierarchy based on element type tags, class selectors, ID tags, and inline declaration styling overrides.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🔲</span>
+          <h3 class="concept-title">Flexbox & Grid</h3>
+          <p class="concept-desc">Unidimensional row/column alignments and complex multidimensional layout matrix structure grids.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🎬</span>
+          <h3 class="concept-title">Animations</h3>
+          <p class="concept-desc">Smooth visual state interpolation transitions using keyframe rules and easing speed curve models.</p>
+        </div>
+      </div>
+
+      <!-- Split-Pane Demo 1: Box Model Visualizer -->
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-bottom: 1rem;">Demo A: Interactive Box Model</h3>
+      <div class="split-pane">
+        <div class="code-editor">
+          <div class="editor-header">
+            <div class="window-dots">
+              <div class="dot dot-red"></div>
+              <div class="dot dot-yellow"></div>
+              <div class="dot dot-green"></div>
+            </div>
+            <div class="tab-title">box-model.css</div>
+          </div>
+          <div class="editor-body">
+            <span class="code-line"><span class="css-sel">.box</span> {</span>
+            <span class="code-line">  <span class="css-prop">margin</span>: <span class="css-val">24px</span>; <span class="comment">/* Orange border */</span></span>
+            <span class="code-line">  <span class="css-prop">border</span>: <span class="css-val">4px solid #ef4444</span>;</span>
+            <span class="code-line">  <span class="css-prop">padding</span>: <span class="css-val">20px</span>; <span class="comment">/* Blue background */</span></span>
+            <span class="code-line">  <span class="css-prop">background-color</span>: <span class="css-val">#ffffff</span>;</span>
+            <span class="code-line">}</span>
+          </div>
+        </div>
+        <div class="live-output">
+          <span class="output-label">Live Output</span>
+          <div class="box-model-demo">
+            <div class="bm-margin">
+              <div class="bm-border">
+                <div class="bm-padding">
+                  <div class="bm-content">
+                    Content Area
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bm-controls">
+              <button class="bm-btn active" onclick="setBMHighlight(this, 'margin')">Margin</button>
+              <button class="bm-btn" onclick="setBMHighlight(this, 'border')">Border</button>
+              <button class="bm-btn" onclick="setBMHighlight(this, 'padding')">Padding</button>
+              <button class="bm-btn" onclick="setBMHighlight(this, 'content')">Content</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Split-Pane Demo 2: CSS Grid Column Controls -->
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-bottom: 1rem;">Demo B: Realtime CSS Grid Generator</h3>
+      <div class="split-pane">
+        <div class="code-editor">
+          <div class="editor-header">
+            <div class="window-dots">
+              <div class="dot dot-red"></div>
+              <div class="dot dot-yellow"></div>
+              <div class="dot dot-green"></div>
+            </div>
+            <div class="tab-title">grid-layout.css</div>
+          </div>
+          <div class="editor-body">
+            <span class="code-line"><span class="css-sel">.grid-display</span> {</span>
+            <span class="code-line">  <span class="css-prop">display</span>: <span class="css-val">grid</span>;</span>
+            <span class="code-line">  <span class="css-prop">grid-template-columns</span>: <span class="css-val">repeat(<span class="num" id="grid-code-val">3</span>, 1fr)</span>;</span>
+            <span class="code-line">  <span class="css-prop">gap</span>: <span class="css-val">8px</span>;</span>
+            <span class="code-line">}</span>
+          </div>
+        </div>
+        <div class="live-output">
+          <span class="output-label">Live Output</span>
+          <div class="grid-demo-container">
+            <div id="grid-display" class="grid-display">
+              <div class="grid-cell">1</div>
+              <div class="grid-cell">2</div>
+              <div class="grid-cell">3</div>
+              <div class="grid-cell">4</div>
+              <div class="grid-cell">5</div>
+              <div class="grid-cell">6</div>
+            </div>
+            <div class="grid-controls">
+              <label for="grid-slider">Columns Count</label>
+              <div class="slider-container">
+                <input type="range" id="grid-slider" min="1" max="6" value="3" oninput="updateGrid(this.value); document.getElementById('grid-code-val').innerText = this.value;">
+                <span id="grid-slider-val" class="slider-val">3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- 📚 Bootstrap Section (#bootstrap) -->
+  <section id="bootstrap" class="section">
+    <div class="container">
+      <span class="eyebrow">Topic 3</span>
+      <h2 class="section-title">Bootstrap Section</h2>
+      <p class="section-desc">
+        Bootstrap is a responsive styling framework. Using a 12-column grid layout, predefined components, utility classes, and modular widgets, we can structure beautiful interfaces.
+      </p>
+
+      <!-- Concept Cards -->
+      <div class="concept-grid">
+        <div class="concept-card">
+          <span class="concept-icon">📐</span>
+          <h3 class="concept-title">Grid System</h3>
+          <p class="concept-desc">Flexible layouts based on .container, .row, and responsive column classes (.col-md-6, etc.) matching screen break-points.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🧩</span>
+          <h3 class="concept-title">Components</h3>
+          <p class="concept-desc">Building interface structures faster using stylized buttons, alert boxes, cards, progress bars, and header bars.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">⚙️</span>
+          <h3 class="concept-title">Utilities</h3>
+          <p class="concept-desc">Fast adjustments using padding (p-3), margins (mt-2), colors (text-primary), flexbox displays (d-flex), and alignment codes.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🔌</span>
+          <h3 class="concept-title">JS Plugins</h3>
+          <p class="concept-desc">Interactive features like carousel transitions, modals overlays, sticky dropdowns, and side canvasses without writing JS.</p>
+        </div>
+      </div>
+
+      <!-- Split-Pane Demo 1: Bootstrap Grid System Code -->
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-bottom: 1rem;">Demo A: 12-Column Grid Structure</h3>
+      <div class="split-pane">
+        <div class="code-editor">
+          <div class="editor-header">
+            <div class="window-dots">
+              <div class="dot dot-red"></div>
+              <div class="dot dot-yellow"></div>
+              <div class="dot dot-green"></div>
+            </div>
+            <div class="tab-title">bootstrap-grid.html</div>
+          </div>
+          <div class="editor-body">
+            <span class="code-line"><span class="tag">&lt;div</span> <span class="attr">class</span>=<span class="val">"container"</span><span class="tag">&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;div</span> <span class="attr">class</span>=<span class="val">"row"</span><span class="tag">&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;div</span> <span class="attr">class</span>=<span class="val">"col-md-4 col-sm-6"</span><span class="tag">&gt;</span>Col 1<span class="tag">&lt;/div&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;div</span> <span class="attr">class</span>=<span class="val">"col-md-4 col-sm-6"</span><span class="tag">&gt;</span>Col 2<span class="tag">&lt;/div&gt;</span></span>
+            <span class="code-line">    <span class="tag">&lt;div</span> <span class="attr">class</span>=<span class="val">"col-md-4 col-sm-12"</span><span class="tag">&gt;</span>Col 3<span class="tag">&lt;/div&gt;</span></span>
+            <span class="code-line">  <span class="tag">&lt;/div&gt;</span></span>
+            <span class="code-line"><span class="tag">&lt;/div&gt;</span></span>
+          </div>
+        </div>
+        <div class="live-output">
+          <span class="output-label">Live Output Preview</span>
+          <!-- Simulation of the bootstrap 12-col layout in raw CSS to demonstrate output  -->
+           <div style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.75rem; font-weight: 700; text-align: center; color: var(--primary-dark); width: 100%;">
+            <div style="background-color: var(--primary-light); padding: 0.5rem; border-radius: 4px; border: 1px solid rgba(99, 102, 241, 0.2);">.container</div>
+            <div style="display: flex; gap: 0.5rem; width: 100%;">
+              <div style="flex: 1; background-color: rgba(34, 197, 94, 0.12); color: var(--accent-green); padding: 0.75rem 0.5rem; border-radius: 4px; border: 1px dashed rgba(34, 197, 94, 0.3);">.col-md-4 (1/3 width)</div>
+              <div style="flex: 1; background-color: rgba(34, 197, 94, 0.12); color: var(--accent-green); padding: 0.75rem 0.5rem; border-radius: 4px; border: 1px dashed rgba(34, 197, 94, 0.3);">.col-md-4 (1/3 width)</div>
+              <div style="flex: 1; background-color: rgba(34, 197, 94, 0.12); color: var(--accent-green); padding: 0.75rem 0.5rem; border-radius: 4px; border: 1px dashed rgba(34, 197, 94, 0.3);">.col-md-4 (1/3 width)</div>
+            </div>
+            <div style="display: flex; gap: 0.5rem; width: 100%;">
+              <div style="flex: 2; background-color: rgba(244, 63, 94, 0.1); color: var(--accent-rose); padding: 0.75rem 0.5rem; border-radius: 4px; border: 1px dashed rgba(244, 63, 94, 0.3);">.col-md-8 (2/3 width)</div>
+              <div style="flex: 1; background-color: rgba(244, 63, 94, 0.1); color: var(--accent-rose); padding: 0.75rem 0.5rem; border-radius: 4px; border: 1px dashed rgba(244, 63, 94, 0.3);">.col-md-4 (1/3 width)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Split-Pane Demo 2: Component Generator -->
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-bottom: 1rem;">Demo B: Component Generator</h3>
+      <div class="split-pane">
+        <div class="code-editor">
+          <div class="editor-header">
+            <div class="window-dots">
+              <div class="dot dot-red"></div>
+              <div class="dot dot-yellow"></div>
+              <div class="dot dot-green"></div>
+            </div>
+            <div class="tab-title">generator.js</div>
+          </div>
+          <div class="editor-body">
+            <span class="code-line"><span class="keyword">function</span> <span class="func">renderBootstrap</span>() {</span>
+            <span class="code-line">  <span class="keyword">const</span> type = <span class="string">compType</span>.<span class="attr">value</span>;</span>
+            <span class="code-line">  <span class="keyword">const</span> style = <span class="string">compStyle</span>.<span class="attr">value</span>;</span>
+            <span class="code-line">  <span class="comment">// Generates bootstrap-compliant UI structure</span></span>
+            <span class="code-line">  <span class="keyword">let</span> markup = <span class="string">`&lt;button class="btn btn-</span>${style}<span class="string">"&gt;`</span>;</span>
+            <span class="code-line">}</span>
+          </div>
+        </div>
+        <div class="live-output">
+          <span class="output-label">Live Generator Output</span>
+          <div style="display: flex; flex-direction: column; gap: 0.8rem; width: 100%;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+              <div class="form-group">
+                <label for="bs-comp-type" style="font-size: 0.75rem;">Component Type</label>
+                <select id="bs-comp-type" class="form-control" style="font-size: 0.8rem; padding: 0.4rem;" onchange="runGenerator()">
+                  <option value="alert">Alert Box</option>
+                  <option value="button" selected>Button</option>
+                  <option value="badge">Pill Badge</option>
+                  <option value="card">Card Layout</option>
+                  <option value="progress">Progress Bar</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="bs-comp-style" style="font-size: 0.75rem;">Bootstrap Theme</label>
+                <select id="bs-comp-style" class="form-control" style="font-size: 0.8rem; padding: 0.4rem;" onchange="runGenerator()">
+                  <option value="primary" selected>Primary (Indigo)</option>
+                  <option value="success">Success (Green)</option>
+                  <option value="danger">Danger (Rose)</option>
+                  <option value="warning">Warning (Amber)</option>
+                  <option value="info">Info (Cyan)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="bs-comp-text" style="font-size: 0.75rem;">Component Label Text</label>
+              <input type="text" id="bs-comp-text" class="form-control" style="font-size: 0.8rem; padding: 0.4rem;" value="Click Me!" oninput="runGenerator()">
+            </div>
+            <button onclick="runGenerator()" class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.45rem 1rem;">Generate Component</button>
+            
+            <div id="bs-generator-output" class="bs-generator-output"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- 📚 JavaScript Section (#javascript) -->
+  <section id="javascript" class="section">
+    <div class="container">
+      <span class="eyebrow">Topic 4</span>
+      <h2 class="section-title">JavaScript Section</h2>
+      <p class="section-desc">
+        JavaScript runs logic inside browsers. Essential elements include declaring variables and writing functions, accessing elements using the DOM layout tree, setting up events, and writing ES6 features.
+      </p>
+
+      <!-- Concept Cards -->
+      <div class="concept-grid">
+        <div class="concept-card">
+          <span class="concept-icon">⚙️</span>
+          <h3 class="concept-title">Variables & Functions</h3>
+          <p class="concept-desc">Declaring local variables with let/const and packaging structural executable logic units inside function blocks.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🌳</span>
+          <h3 class="concept-title">DOM Manipulation</h3>
+          <p class="concept-desc">Interfacing with standard HTML elements to change text, read attributes, paint styles, and inject nodes.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">🔀</span>
+          <h3 class="concept-title">Events & Callbacks</h3>
+          <p class="concept-desc">Setting listener triggers to fire handler callback structures when users click, type, submit, or scroll pages.</p>
+        </div>
+        <div class="concept-card">
+          <span class="concept-icon">⚡</span>
+          <h3 class="concept-title">ES6+ Features</h3>
+          <p class="concept-desc">Using cleaner syntax models like arrow functions (=>), template strings, and structured object destructuring.</p>
+        </div>
+      </div>
+
+      <!-- Split-Pane Demo 1: Calculator -->
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-bottom: 1rem;">Demo A: Dark-Themed Calculator (eval() engine)</h3>
+      <div class="split-pane">
+        <div class="code-editor">
+          <div class="editor-header">
+            <div class="window-dots">
+              <div class="dot dot-red"></div>
+              <div class="dot dot-yellow"></div>
+              <div class="dot dot-green"></div>
+            </div>
+            <div class="tab-title">calculator.js</div>
+          </div>
+          <div class="editor-body">
+            <span class="code-line"><span class="keyword">function</span> <span class="func">calcEquals</span>() {</span>
+            <span class="code-line">  <span class="keyword">const</span> expression = <span class="string">calcExpression</span>;</span>
+            <span class="code-line">  <span class="keyword">try</span> {</span>
+            <span class="code-line">    <span class="comment">// Execute clean mathematical characters safely</span></span>
+            <span class="code-line">    <span class="keyword">const</span> res = <span class="func">eval</span>(expression);</span>
+            <span class="code-line">    <span class="string">currentDisplay</span>.<span class="attr">innerText</span> = res;</span>
+            <span class="code-line">  } <span class="keyword">catch</span>(err) {</span>
+            <span class="code-line">    <span class="string">currentDisplay</span>.<span class="attr">innerText</span> = <span class="string">"Error"</span>;</span>
+            <span class="code-line">  }</span>
+            <span class="code-line">}</span>
+          </div>
+        </div>
+        <div class="live-output" style="background-color: var(--dark-200);">
+          <span class="output-label" style="background-color: var(--dark-100); border-color: var(--dark-300); color: #ffffff;">Live Calculator</span>
+          <div class="calc-container">
+            <div class="calc-display">
+              <div id="calc-expr" class="calc-expression"></div>
+              <div id="calc-current" class="calc-current">0</div>
+            </div>
+            <div class="calc-grid">
+              <button class="calc-btn calc-btn-clear" onclick="calcClear()">C</button>
+              <button class="calc-btn" onclick="calcAppend('/')">/</button>
+              <button class="calc-btn" onclick="calcAppend('*')">*</button>
+              <button class="calc-btn" onclick="calcAppend('-')">-</button>
+              
+              <button class="calc-btn" onclick="calcAppend('7')">7</button>
+              <button class="calc-btn" onclick="calcAppend('8')">8</button>
+              <button class="calc-btn" onclick="calcAppend('9')">9</button>
+              <button class="calc-btn calc-btn-op" onclick="calcAppend('+')">+</button>
+              
+              <button class="calc-btn" onclick="calcAppend('4')">4</button>
+              <button class="calc-btn" onclick="calcAppend('5')">5</button>
+              <button class="calc-btn" onclick="calcAppend('6')">6</button>
+              <button class="calc-btn calc-btn-op" style="grid-row: span 2; height: 100%;" onclick="calcAppend('.')">.</button>
+              
+              <button class="calc-btn" onclick="calcAppend('1')">1</button>
+              <button class="calc-btn" onclick="calcAppend('2')">2</button>
+              <button class="calc-btn" onclick="calcAppend('3')">3</button>
+              
+              <button class="calc-btn" onclick="calcAppend('0')">0</button>
+              <button class="calc-btn calc-btn-eq" onclick="calcEquals()">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Split-Pane Demo 2: DOM Manipulator -->
+      <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--dark-300); margin-bottom: 1rem;">Demo B: DOM Task Manager</h3>
+      <div class="split-pane">
+        <div class="code-editor">
+          <div class="editor-header">
+            <div class="window-dots">
+              <div class="dot dot-red"></div>
+              <div class="dot dot-yellow"></div>
+              <div class="dot dot-green"></div>
+            </div>
+            <div class="tab-title">dom-manipulator.js</div>
+          </div>
+          <div class="editor-body">
+            <span class="code-line"><span class="keyword">function</span> <span class="func">domAddTask</span>() {</span>
+            <span class="code-line">  <span class="keyword">const</span> text = <span class="string">taskInput</span>.<span class="attr">value</span>;</span>
+            <span class="code-line">  <span class="keyword">const</span> li = <span class="string">document</span>.<span class="func">createElement</span>(<span class="string">"li"</span>);</span>
+            <span class="code-line">  <span class="string">li</span>.<span class="attr">className</span> = <span class="string">"dom-item"</span>;</span>
+            <span class="code-line">  <span class="string">li</span>.<span class="attr">innerHTML</span> = <span class="string">`&lt;span&gt;</span>\${text}<span class="string">&lt;/span&gt;&lt;button&gt;✕&lt;/button&gt;`</span>;</span>
+            <span class="code-line">  <span class="string">taskList</span>.<span class="func">appendChild</span>(<span class="string">li</span>);</span>
+            <span class="code-line">}</span>
+          </div>
+        </div>
+        <div class="live-output">
+          <span class="output-label">Live DOM Output</span>
+          <div class="dom-container">
+            <div class="dom-input-group">
+              <input type="text" id="dom-task-input" class="form-control" placeholder="Type a task name..." onkeydown="if(event.key === 'Enter') domAddTask()">
+              <button onclick="domAddTask()" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem; flex-shrink: 0;">Add Task</button>
+            </div>
+            <ul id="dom-task-list" class="dom-list">
+              <li class="dom-item">
+                <span>Refactor CET138 Project Structure</span>
+                <button class="dom-remove-btn" onclick="this.parentElement.remove()" aria-label="Remove Task">✕</button>
+              </li>
+              <li class="dom-item">
+                <span>Deploy portfolio page to Vercel</span>
+                <button class="dom-remove-btn" onclick="this.parentElement.remove()" aria-label="Remove Task">✕</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- 📬 Contact Section (#contact) -->
+  <section id="contact" class="section">
+    <div class="container">
+      <span class="eyebrow">Connect</span>
+      <h2 class="section-title">Get In Touch</h2>
+      
+      <div class="contact-grid">
+        <!-- Left Panel: Info Panel -->
+        <div class="contact-info-panel">
+          <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--dark-300);">Let's Connect</h3>
+          <p style="color: var(--dark-mid); font-size: 1rem; line-height: 1.5;">
+            I am always open to discussing new opportunities, academic collaborations, or developer work. Send me a message using the form or reach out directly via my email.
+          </p>
+
+          <div class="info-card">
+            <div class="info-row">
+              <div class="info-icon">📍</div>
+              <span>Biratnagar, Nepal</span>
+            </div>
+            <div class="info-row">
+              <div class="info-icon">📧</div>
+              <span><a href="mailto:sahashmita71@gmail.com">sahashmita71@gmail.com</a></span>
+            </div>
+            <div class="info-row">
+              <div class="info-icon">🎓</div>
+              <span>BSc Computer Science & Engineering</span>
+            </div>
+            <div class="info-row">
+              <div class="info-icon">💼</div>
+              <span>CET138 Assignment Submission</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Panel: Form -->
+        <div class="contact-form-panel">
+          <div id="contact-banner" class="contact-banner"></div>
+          
+          <form id="portfolio-contact-form" class="contact-form" onsubmit="return submitContact(event)">
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="contact-fname">First Name</label>
+                <input type="text" id="contact-fname" class="form-control" required placeholder="Ashmita">
+              </div>
+              <div class="form-group">
+                <label for="contact-lname">Last Name</label>
+                <input type="text" id="contact-lname" class="form-control" required placeholder="Shah">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email Address</label>
+              <input type="email" id="contact-email" class="form-control" required placeholder="sahashmita71@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" class="form-control" required placeholder="CET138 Project Feedback">
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" class="form-control" rows="4" required placeholder="Your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message &rarr;</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<footer class="footer">
+  <div class="container footer-content">
+    <p>&copy; 2026 Ashmita Shah. All Rights Reserved.</p>
+    <p>CET138 – Full Stack Development ePortfolio</p>
+    <p>
+      📧 <a href="mailto:sahashmita71@gmail.com">sahashmita71@gmail.com</a>
+      | 📍 Biratnagar, Nepal
+    </p>
+  </div>
+</footer>
+
+  <!-- App Script logic -->
+  <script src="app.js"></script>
+</body>
+</html>
